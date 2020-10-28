@@ -1,0 +1,21 @@
+pt-BR:
+  users:
+   registrations:
+    new:
+       submit: Cadastrar
+    edit:
+      submit: Atualizar Cadastro
+      back: Voltar
+  activerecord:
+    models:
+      user: Cliente
+    attributes:
+      user:
+        name: Nome
+        cpf: CPF
+        email: Email
+        password: Senha
+        password_confirmation: Confirme sua senha
+        current_password: Senha Atual
+
+
