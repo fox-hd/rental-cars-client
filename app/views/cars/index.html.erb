@@ -1,0 +1,16 @@
+<h1>Carros disponiveis</h1>
+
+<% if @cars.empty? %>
+  <h1>Não há carros disponiveis para locação</h1>
+<% end %>
+
+<% @cars.each do |car|%>
+  <dl>
+  <dt>Placa</dt>
+  <dd><%=car.license_plate %></dd>
+  <dt>Km</dt>
+  <dd><%= car.mileage %> </dd>
+  <dt>Cor</dt>
+  <dd><%= car.color%> </dd>
+  </dl>
+<% end %>

@@ -1,0 +1,5 @@
+test:
+  cars: http://cars/api/v1/
+
+development:
+  cars: http://localhost:4000/api/v1/

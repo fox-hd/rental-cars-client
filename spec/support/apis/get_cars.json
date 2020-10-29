@@ -1,0 +1,15 @@
+[
+  {
+    "id":1,
+    "license_plate": "ABC1234",
+    "color" : "Cinza",
+    "mileage":"1000"
+  },
+  {
+    "id":1,
+    "license_plate": "DEF1234",
+    "color" : "Vermelho",
+    "mileage":"2000"
+  }
+
+]
