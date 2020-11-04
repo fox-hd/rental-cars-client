@@ -1,0 +1,15 @@
+[
+  {
+    "id":1,
+    "name": "Lorem Ipsun I",
+    "cnpj": "50.668.157/0001-68",
+    "address": "Av. paulista, 1000"
+  },
+  {
+    "id":2,
+    "name": "Lorem Ipsun II",
+    "cnpj": "63.463.524/0001-39",
+    "address": "Av. paulista, 2000"
+  }
+
+]

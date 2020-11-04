@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-feature 'client view available cars' do
+xfeature 'client view available cars' do
   scenario 'sucessfully' do
     user = create(:user)
     login_as user, scope: :user

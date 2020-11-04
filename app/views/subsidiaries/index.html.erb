@@ -1,0 +1,20 @@
+<h1>Filiais</h1>
+
+<% if @subsidiaries.empty? %>
+  <h1>Não há filiais cadastradas</h1>
+<% end %>
+
+<% @subsidiaries.each do |subsidiary| %>
+  <dl>
+    <dt>Nome</dt>
+    <dd><%= subsidiary.name %></dd>
+    <dt>CNPJ</dt>
+    <dd><%= subsidiary.cnpj %></dd>
+    <dt>Endereço</dt>
+    <dd><%= subsidiary.address %></dd>
+  </dl>
+<% end %>
+
+  
+  
+  
